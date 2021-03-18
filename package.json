@@ -1,7 +1,7 @@
 {
-  "name": "ecommerce",
+  "name": "Happy-Farm",
   "version": "1.0.0",
-  "description": "mern stack e-commerce app",
+  "description": "App to bridge to farmers and consumers",
   "main": "server.js",
   "scripts": {
     "client-install": "npm install --prefix client",
@@ -12,7 +12,7 @@
     "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install --prefix client && npm run build --prefix client"
   },
   "keywords": [],
-  "author": "MKN",
+  "author": "Dinesh",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

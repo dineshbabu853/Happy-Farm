@@ -1,6 +1,6 @@
 import React from "react";
 import Menu from "./Menu";
-import Book from "../assets/farm.png";
+import Farm from "../assets/farm.png";
 
 const Layout = ({
   title = "Title",
@@ -15,7 +15,7 @@ const Layout = ({
       {logo ? (
         <div>
           <h2>
-            <img src={Book} alt="Happy-Farm" style={{ height: "48px" }} />{" "}
+            <img src={Farm} alt="Happy-Farm" style={{ height: "48px" }} />{" "}
             {title}
           </h2>
         </div>

@@ -2,7 +2,7 @@ import React, { Fragment } from "react";
 import { NavLink, Link, withRouter } from "react-router-dom";
 import { signout, isAuthenticated } from "../auth";
 import { itemTotal } from "./cartHelpers";
-import Book from "../assets/farm.png";
+import Farm from "../assets/farm.png";
 
 const isActive = (history, path) => {
   if (history.location.pathname === path) {
@@ -18,8 +18,8 @@ const Menu = ({ history }) => {
       <Link to="/" className="navbar-brand">
         {" "}
         <img
-          src={Book}
-          alt="book"
+          src={Farm}
+          alt="Farm"
           style={{ height: "32px", width: "32px" }}
         />{" "}
         Happy-Farm
