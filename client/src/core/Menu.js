@@ -50,6 +50,7 @@ const Menu = ({ history }) => {
           </li>
           <li className={"nav-item" + isActive(history, "/cart")}>
             <Link className="nav-link" to="/cart">
+              Cart &nbsp;
               <i className="shopping cart icon"></i>
               {itemTotal() !== 0 ? (
                 <sup>

@@ -36,7 +36,7 @@ const Home = () => {
   }, []);
   const show = () => (
     <div className="container-fluid">
-      <h2 className="mb-4">Vegetables</h2>
+      <h2 className="mb-4">Frequently bought:</h2>
       <div className="row">
         {productBySell.map((product, i) => (
           <div key={i} className="mb-3 col-lg-4 col-md-6 col-sm-12 col-xs-12">
@@ -44,7 +44,7 @@ const Home = () => {
           </div>
         ))}
       </div>
-      <h2 className="mb-4">Fruits</h2>
+      <h2 className="mb-4">Newly added:</h2>
       <div className="row">
         {productByArrival.map((product, i) => (
           <div key={i} className="mb-3 col-lg-4 col-md-6 col-sm-12 col-xs-12">

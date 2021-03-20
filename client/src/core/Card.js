@@ -36,7 +36,7 @@ const Card = ({
       return (
         cartButton && (
           <div id="btt" onClick={addToCart} className="ui positive button">
-            Add to card
+            Add to cart
           </div>
         )
       );
